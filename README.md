@@ -28,4 +28,4 @@ The given Python code when executed on the Victim's machine, can execute any Win
 
 
 JUST FYI:
-  = If you are planning to run any of these codes in a Virtual Machine, make sure to open the ports you are using in the codes. Here I am using 8080, so I had to open them for the     settings on my Virtual Box. 
+  = If you are planning to run any of these codes in a Virtual Machine, make sure to open the ports you are using in the codes. Here I am using 8080, so I had to open them in the     settings on my Virtual Box. 
