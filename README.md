@@ -12,7 +12,7 @@ In order for the Code-Pair to run, the Reverse-Backdoor should only run when the
 The given Reverse-Backdoor code should be repackeged into a .exe file to run without any support on the target's computer, even if the target does not have any Python Interpretor installed.
   > to do that (say on a Win10 or Win11 machine), you should have Python Interpretor (3 or later versions) installed, and then run this command in Windows Command Prompt.
     >> `C:\Python39\Scripts\pyinstaller.exe reverse_backdoor_Class.py --onefile --noconsole` 
-    >> Make sure that you are running the cmd prompt at the same place where the file is installed.
+  > Make sure that you are running the cmd prompt at the same place where the file is installed.
  
 
 The given Python code when executed on the Victim's machine, can execute any Windows command from the command prompt, and even has "UPLOAD" and "DOWNLOAD" functionality, ie, you can inject files into the victim's system, and can even download from theirs.
